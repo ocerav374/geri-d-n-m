@@ -1,3 +1,14 @@
+import discord
+from discord.ext import commands
+import bot_mantik
+import random 
+
+
+intents = discord.Intents.default()
+intents.message_content = True
+
+bot = commands.Bot(command_prefix='$', intents=intents)
+
 @bot.command()
 async def plastik(ctx):
     await ctx.send("Plastik siseler geri dönüştürülebilir")
