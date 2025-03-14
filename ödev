@@ -1,0 +1,9 @@
+@bot.command()
+async def plastik(ctx):
+    await ctx.send("Plastik siseler geri dönüştürülebilir")
+
+@bot.command()
+async def cam(ctx):
+    await ctx.send("Cam eşyalar kirilince paketleyip çöpe atalim")
+
+bot.run('token gir')
